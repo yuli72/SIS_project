@@ -112,9 +112,9 @@
             this.fluentDesignFormContainer1.Controls.Add(this.label3);
             this.fluentDesignFormContainer1.Controls.Add(this.panel3);
             this.fluentDesignFormContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fluentDesignFormContainer1.Location = new System.Drawing.Point(44, 29);
+            this.fluentDesignFormContainer1.Location = new System.Drawing.Point(250, 29);
             this.fluentDesignFormContainer1.Name = "fluentDesignFormContainer1";
-            this.fluentDesignFormContainer1.Size = new System.Drawing.Size(758, 578);
+            this.fluentDesignFormContainer1.Size = new System.Drawing.Size(552, 578);
             this.fluentDesignFormContainer1.TabIndex = 0;
             // 
             // label8
@@ -402,9 +402,8 @@
             this.accordionControlElement11});
             this.accordionControl1.Location = new System.Drawing.Point(0, 29);
             this.accordionControl1.Name = "accordionControl1";
-            this.accordionControl1.OptionsMinimizing.State = DevExpress.XtraBars.Navigation.AccordionControlState.Minimized;
             this.accordionControl1.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            this.accordionControl1.Size = new System.Drawing.Size(44, 578);
+            this.accordionControl1.Size = new System.Drawing.Size(250, 578);
             this.accordionControl1.TabIndex = 1;
             this.accordionControl1.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -413,7 +412,6 @@
             this.accordionControlElement1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.item_Dashboard,
             this.accordionControlElement3});
-            this.accordionControlElement1.Expanded = true;
             this.accordionControlElement1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("accordionControlElement1.ImageOptions.SvgImage")));
             this.accordionControlElement1.Name = "accordionControlElement1";
             this.accordionControlElement1.Text = "DashBoard";
@@ -437,7 +435,6 @@
             this.item_Allstudent,
             this.item_Studentdetails,
             this.item_Enrollstudent});
-            this.accordionControlElement4.Expanded = true;
             this.accordionControlElement4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("accordionControlElement4.ImageOptions.SvgImage")));
             this.accordionControlElement4.Name = "accordionControlElement4";
             this.accordionControlElement4.Text = "Students";
@@ -469,7 +466,6 @@
             this.item_allteachers,
             this.item_teacherdetails,
             this.item_addteacher});
-            this.accordionControlElement5.Expanded = true;
             this.accordionControlElement5.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("accordionControlElement5.ImageOptions.SvgImage")));
             this.accordionControlElement5.Name = "accordionControlElement5";
             this.accordionControlElement5.Text = "Teachers";
